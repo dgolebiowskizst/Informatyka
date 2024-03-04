@@ -7,8 +7,16 @@ unsigned NWD(unsigned a, unsigned b)
 }
 int main()
 {
-	unsigned a, b;
+	unsigned a, b, x, y, t;
 	cin >> a >> b;
 	cout << "NWD(" << a << "," << b << ") = " << NWD(a, b) << endl << endl;
+
+	cin >> x >> y;
+	while(y){
+		t=y;
+		y=x%y;
+		x=t;
+	}
+	cout << a << endl;
 	return 0;
 		}
