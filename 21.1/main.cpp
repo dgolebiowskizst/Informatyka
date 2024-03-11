@@ -21,7 +21,7 @@ int NWW(int a, int b)
 
 int main()
 {
-    int i, l1, l2, m1, m2, licznik, mianownik;
+    int i, c, l1, l2, m1, m2, licznik, mianownik;
 
 
     cout<<"Podaj licznik pierwszego ulamka ";
@@ -36,8 +36,15 @@ int main()
 
     mianownik = NWW(m1, m2);
     i = licznik = mianownik/m1*l1 + mianownik /m2*l2;
-    licznik = licznik / NWD(i, mianownik);
-    mianownik = mianownik / NWD(i, mianownik);
+    licznik = licznik / i;
+    mianownik = mianownik / i;
+
+    if(licznik/mianownik != 0)
+    {
+        c=licznik/mianownik;
+        licznik = licznik - c * mianownik;
+        cout<<l1<<"/"m1<<" + "<<l2<<"/"<<m2<<" = "<<c<<" i "<<licznik<<"/"<<mianownik;
+    }
 
     cout<<l1<<"/"<<m1<<" + "<<l2<<"/"<<m2<<" = "<<licznik<<"/"<<mianownik;
 
