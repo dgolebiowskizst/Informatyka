@@ -1,0 +1,16 @@
+co to jest złożoność czasowa
+co to jest złożoność pamięciowa
+3 odmiany złożonośći obliczeniowej (przykład ze śliwkami; przypadek optymistyczny (T = 1), pesymistyczny (T = n), średni (T = n/2))
+sito Eratostenesa
+schematy blokowe (bez 15.5)
+generator liczb pierwszych
+nwd nww
+algorytm nieoptymalny metody Euklidesa
+algorytm optymalny metody Euklidesa
+wzór na nww
+definicja rekurencji (rekurencja to wywołanie funkcji lub definicji funkcji przez samą siebie)
+przykład rozwiązania rekurencji
+euklides rekurencyjny
+dodawanie ułamków
+skracanie ułamków
+wyłączenie liczby całkowitej i reszty z ułamka
